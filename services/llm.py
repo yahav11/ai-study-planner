@@ -22,3 +22,4 @@ def generate_study_plan(prompt: str) -> str:
         temperature=0.7,
     )
     return resp.choices[0].message.content
+
