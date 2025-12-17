@@ -13,3 +13,6 @@ A Streamlit web app that generates a personalized study plan using OpenAI.
 - Python
 - Streamlit
 - OpenAI API
+
+
+## Live demo:: https://ai-study-planner-fzvflmghmmns6wubtnbzr3.streamlit.app/
