@@ -1,7 +1,7 @@
 import streamlit as st
 from dotenv import load_dotenv
 
-load_dotenv()  # לפני imports של llm
+load_dotenv() 
 import os
 #st.write("KEY loaded?", bool(os.getenv("OPENAI_API_KEY")))
 
@@ -25,3 +25,4 @@ if st.button("Generate study plan"):
             st.write(plan)
     else:
         st.warning("Please enter a subject")
+
