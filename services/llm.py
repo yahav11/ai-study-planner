@@ -3,7 +3,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from openai import OpenAI
 
-# טוען .env מה-root של הפרויקט (איפה ש-app.py יושב)
+
 ENV_PATH = Path(__file__).resolve().parents[1] / ".env"
 load_dotenv(dotenv_path=ENV_PATH)
 
@@ -22,4 +22,5 @@ def generate_study_plan(prompt: str) -> str:
         temperature=0.7,
     )
     return resp.choices[0].message.content
+
 
